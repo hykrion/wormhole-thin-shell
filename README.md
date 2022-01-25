@@ -28,10 +28,14 @@ zyy = a[x] zp[x] D[a[x] zp[x] D[z[x], x], x];
 tortoiseXY = NDSolveValue[{x'[y] == a[x[y]] zp[x[y]], x[yL] == yL + 14.}, x, {y, yL, yR}];
 ```
 with the equivalent in C an GSL [tortoise](https://github.com/hykrion/black-bounce-double/blob/main/tortoise.c) There's no colour...
+
 ![tortoise](/img/tortoise.png)
 ![Veff](/img/veff.png)
+
 unfortunately I was not able to calculate the coeffcients R & T to calculate the partial absorption cross section... so I decided to use wolfram to calculate the 2_F_1 and use the results in the C code to get sigma_l. But I was not able to do it... and this's the cause
+
 ![Black Bounce GUI](/img/coefficients.png)
+
 as you can see R + T != 1 so I cannot go ahead and calculate sigma_l.
 
 I'm very confident that the correct results are almost in the wolfram code... but some work is need to get to the goal.
