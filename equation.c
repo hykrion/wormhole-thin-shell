@@ -141,7 +141,6 @@ H(double x)
 double
 A(double x)
 {
-  double d_1 = d_c();
   /* A[x_] = (1 - rSbyrc (1 + dc H[x]) / (z Sqrt[Zm[x]])) / Zp[z] /. z -> z[x]; */
   return (1.0 - rSbyrc()*(1.0 + d_c()*H(x)) / (z(x)*sqrt(zm(x)))) / zp(z(x));
 }

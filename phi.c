@@ -171,7 +171,6 @@ phi_integration(double a,
 
   struct TPhiParams *intPar = (struct TPhiParams*)intParams;
   double w = (intPar->w);
-  double l = (intPar->l);
   double u = (intPar->u);
   double v = (intPar->v);
 

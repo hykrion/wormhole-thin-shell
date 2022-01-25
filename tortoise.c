@@ -189,7 +189,6 @@ tortoise_get_yx_i(int i)
 double
 tortoise_get_xy_y_indexed(double x)
 {
-  double foo;
   double a = ui_get_a();
   double b = ui_get_b();
   double h = ui_get_h_forward();
