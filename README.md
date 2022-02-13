@@ -40,3 +40,6 @@ as you can see R + T != 1 so I cannot go ahead and calculate sigma_l.
 
 I'm very confident that the correct results are almost in the wolfram code... but some work is need to get to the goal.
 In the C code the only flaw is the analytic extension of 2_F_1 as the code has good results in the [Schwarzschild](https://github.com/hykrion/schwarzschild-double) and [Black Bounce](https://github.com/hykrion/black-bounce-double) cases.
+
+# Documentation
+For  more information you can consult the pdf's in the *doc* folder (English version it's just an automatic translation)
